@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randevu Defteri</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>✂️ Randevu Defteri</h1>
+    <div class="tarih-secici">
+      <button id="onceki-gun" aria-label="Önceki gün">◀</button>
+      <input type="date" id="tarih-input">
+      <button id="sonraki-gun" aria-label="Sonraki gün">▶</button>
+    </div>
+    <p id="gun-adi"></p>
+    <p id="ozet"></p>
+  </header>
+
+  <main id="slot-listesi"></main>
+
+  <script src="app.js"></script>
+</body>
+</html>
